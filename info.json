@@ -1,0 +1,8 @@
+{
+  "name": "ArtilleryShellStack",
+  "version": "0.0.0",
+  "title": "Artillery Shell Stack",
+  "author": "Stargateur",
+  "description": "Allow to customize artillery shell stack size",
+  "factorio_version": "1.1"
+}
