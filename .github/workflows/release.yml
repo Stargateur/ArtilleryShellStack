@@ -1,0 +1,17 @@
+on:
+  push:
+    tags:
+      - '(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)'
+name: Release
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        lfs: true
+    - name: Publish Mod
+      uses: shanemadden/factorio-mod-portal-publish@master
+      env:
+        FACTORIO_PASSWORD: ${{ secrets.FACTORIO_PASSWORD }}
+        FACTORIO_USER: ${{ secrets.FACTORIO_USER }}
