@@ -1,6 +1,6 @@
 {
   "name": "ArtilleryShellStack",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "title": "Artillery Shell Stack",
   "author": "Stargateur",
   "description": "Change and allow to customize artillery shell stack size, default is now 20.",
