@@ -28,7 +28,7 @@ data:extend
     type = "int-setting",
     name = "artillery-wagon-ammo-stack-limit",
     setting_type = "startup",
-    default_value = 20,
+    default_value = 100,
     minimum_value = 1,
     order = "d"
   },
